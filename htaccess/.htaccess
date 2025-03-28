@@ -1,0 +1,1 @@
+<IfModule mod_rewrite.c>  RewriteEngine On  RewriteRule ^(.*)$ v23/$1 [L] </IfModule> 

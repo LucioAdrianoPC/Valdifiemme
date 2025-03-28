@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Valdifiemme</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSS
+        ================================================ -->
+        <!-- Owl Carousel -->
+		<link rel="shortcut icon" type="imagex/png" href="./images/icon.png">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/animate.min.css">
+
+		<link rel="stylesheet" href="css/main.css">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/modal.css">
+		<link rel="stylesheet" href="css/card.css">
+		<!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/onde.js"></script>	
+		
+	</head>
+	<body onLoad="iniciar()">
+	<!--Modal catalogo-->
+<div class="modal fade modal-xl" id="exampleModalCenter" style="z-index: 9999999; position: absolute height: 500px !important" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-header" style="background-color: #5A001E; color: #F9F9F9">
+        <h3 class="modal-title" id="exampleModalCenterTitle">Catálogo de produtos</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fa fa-times" style="color: #F9F9F9" aria-hidden="true"></i></span>
+        </button>
+      </div>
+      <div class="modal-body" style="height: 600px">
+        <embed src="pdf/catalogo_valdifiemme.pdf" type="application/pdf" width="100%" height="100%">
+      </div>
+      <div class="modal-footer" style="background-color: #5A001E">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+</div>	
+	<!--
+	header-img start 
+	============================== -->
+    <section id="hero-area">
+      <img class="img-responsive" src="images/header.jpg" alt="">
+    </section>
+	<!--
+    Header start 
+	============================== -->
+	<nav id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                                  <a class="navbar-brand" href="#">
+                                    <img src="images/logo.png" alt="Logo">
+                                  </a>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="#hero-area">Início</a></li>
+                                <li><a href="#about-us">Sobre</a></li>
+                                <li><a href="#blog">Produtos</a></li>
+                                <li><a href="#price">Onde encontrar</a></li>
+                                <li><a href="#subscribe">Contatos</a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->
+    
+    <!--
+    about-us start
+    ============================== -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cooker-img.png" alt="cooker-img">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >Queijos finos <span>Val Di Fiemme</span> <br>
+						Sinônimo de <span>Sabor e Tradição!</span></h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">A Val Di Fiemme, nascida e criada na Fazenda San Genaro, em Soledade de Minas, Sul de Minas Gerais, completou 30 anos, no dia primeiro de fevereiro de 2023.<br>
+						Clique nas abas abaixo e nos conheça melhor!</p>
+                    </div>
+                </div><!-- .col-md-12 close -->
+			</div>
+				<div class="col-md-12" style="margin-bottom: 0%">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">A Fazenda</a></li>
+						<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Benefícios do queijo de ovelhas</a></li>
+						<!--<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Queijos finos de leite de vaca</a></li>-->
+						
+					  </ul>
+
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">
+							<div class="row">
+								<div class="col-md-5">
+									<img src="images/fazenda.JPG" class="img-responsive" alt="fazenda">
+								</div>
+								<div class="col-md-7">
+									<p>Com mais de 100 anos, a Fazenda San Genaro fica a cerca de 940 metros de altitude, em Soledade de Minas, no Alto da Serra da Mantiqueira, Sul de Minas Gerais.</p>
+
+									<p>Em 1993, os proprietários fundaram o laticínio Leite Alvorada, hoje destinado à fabricação dos queijos Val Di Fiemme. A linha de produtos se divide em ovelha e vaca, e o leite de ovelha usado na produção é derivado dos animais criados na propriedade. O crescimento do negócio se deve à parceria de clientes altamente exigentes e fiéis à marca.</p><br>
+
+
+									<h2>CLIMA FAVORÁVEL</h2><br>
+
+									<p>A interferência do clima local, com umidade do ar e a altitude favoráveis, assim como o tipo de pastagem, são fundamentais para a qualidade dos queijos finos.</p><br>
+
+									<h2>TRADIÇÃO E INOVAÇÃO</h2><br>
+
+									<p>A tradição da produção artesanal, herdada dos primeiros dinamarqueses que habitaram a região, se mantém unida às normas, padrões e equipamentos modernos de higienização e segurança alimentar.</p><br>
+
+									<h2>CRIAÇÃO DE OVELHAS</h2><br>
+
+									<p>A atividade de criação de ovelhas tornou-se essencial para a qualidade do leite usado na produção dos queijos. Os animais têm acompanhamento e cuidados especializados.</p>
+								</div>	
+							</div>	
+						</div>
+						<div role="tabpanel" class="tab-pane" id="profile">
+							<div class="row">
+								<div class="col-md-5">
+									<img src="images/ovelhas.jpg" class="img-responsive" alt="fazenda">
+								</div>
+								<div class="col-md-7">
+									<h1>As Ovelhas</h1><br>
+									O leite de ovelha é o mais nobre para a produção de queijos finos. A combinação dos sólidos presentes em sua composição dá maior consistência aos produtos. Além disso, ele é facilmente digerido por intolerantes à lactose e é mais saudável e nutritivo!
+									<h1>A Criação</h1><br>
+									<p>Na fazenda San Genaro há uma criação com cerca de 600 animais que produzem o leite usado para fazer os queijos de leite de ovelha Val Di Fiemme.</p>
+								</div>
+						  	</div>
+						</div>
+						<!--<div role="tabpanel" class="tab-pane" id="messages">
+							<div class="row">
+								<div class="col-md-5">
+									<img src="images/queijo_vaca.jpg" class="img-responsive" alt="fazenda">
+								</div>
+								<div class="col-md-7">
+									<h1>Da qualidade</h1>
+									<p>A empresa fornece produtos para clientes exigentes, que podem visitar a fábrica e identificar no local, as práticas diárias de higiene, controle e padrão. Há uma equipe responsável pelo controle de qualidade da matéria prima, leite e fermentos e dos produtos, composta por Técnicos em Laticínios, Zootecnista e Veterinário.</p><br>
+
+									<p>Os produtos são consumidos por seus proprietários, familiares e funcionários, o que demonstra o cuidado com que cada queijo é desenvolvido e a certeza de quem oferece aos consumidores produtos em que confia.</p><br>
+
+									<p>A Val Di Fiemme investe continuamente para manter o padrão nacional e internacional, juntamente com outras empresas, para o reconhecimento do Brasil como um produtor de queijos e iogurtes de excelente qualidade.</p>
+								</div>
+							</div>	
+						</div>-->
+					</div>	
+				</div>
+			</div>   
+    </section><!-- #call-to-action close -->
+		
+	
+    <!--
+    blog start
+    ============================ -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading">Conheça <span>Nossa Linha</span> de <span>Produtos</span></h1>
+                        <ul>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-1.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Queijo de Ovelha</h3>
+                                    <p>Queijo com mofo branco produzido com leite de ovelha</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-2.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Queijo Maturado</h3>
+                                    <p>Queijo com olhaduras, sabor suave, levemente adocicado, produzido com leite de vaca</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
+                                <div class="content-left">
+                                    <h3>Queijo Meia Cura</h3>
+                                    <p>Queijo com sabor e consistência únicos da Val di Fiemme</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/blog-img-3.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
+                                <div class="content-left">
+                                    <h3>Queijo Gouda</h3>
+                                    <p>Queijo com consistência macia e aroma levemente adocicado</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/blog-img-4.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-5.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Queijo Brie</h3>
+                                    <p>Queijo com mofo branco, produzido com leite de vaca, para mesa e o fino da culinária</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-6.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Queijo de Ovelha</h3>
+                                    <p>Além do puro leite de ovelha, os recheados com vinho, pimenta e nozes americanas</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="btn btn-default btn-more-info wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" data-toggle="modal" data-target="#exampleModalCenter" role="button">Conheça nosso catálogo</a>
+						
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+    <!--
+    price start
+    ============================ -->
+    <section id="price">
+        <div class="container" style="z-index: 0">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">Onde encontrar <span>QUEIJOS</span> finos <span>VAL DI FIEMME</span></h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Veja abaixo os pontos de vendas dos nosso queijos! </p>
+                        <div class="pricing-list">
+                            <div class="title" style="cursor: pointer" onClick="am()">
+                                <h3>AMAZONAS <span id="am_ap">+</span></h3>
+                            </div>
+							<div class="row" id="am">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">EMPORIUM ROMA</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO ADRIANÓPOLIS, MANAUS</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">PATIO GOURMET ADRIANOPOLIS</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO ALEIXO, MANAUS</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">PATIO GOURMET</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO CHAPADA, MANAUS</h5>
+								  </div>
+								</div>
+							</div>
+
+							<div class="title" style="cursor: pointer" onClick="ba()">
+								<h3>BAHIA <span id="ba_ap">+</span></h3>
+							</div>
+							<div class="row" id="ba">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">ALMACEN PEPE PITUBA</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO PITUBA, SALVADOR</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">ALMACEN PEPE HORTO</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO HORTO FLORESTAL, SALVADOR</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">ALMACEN PEPE ALPHAVILLE</div>
+								  <div class="card-body">
+									<h5 class="card-title">BAIRRO ALPHAVILLE, SALVADOR</h5>
+								  </div>
+								</div>
+							</div>
+							
+							<!--<div class="title" style="cursor: pointer" onClick="df()">
+								<h3>DISTRITO FEDERAL <span id="df_ap">+</span></h3>
+							</div>
+							<div class="row" id="df">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TARSITANO SABOR DE ORIGEM </div>
+								  <div class="card-body">
+									<h5 class="card-title">ASA NORTE, BRASÍLIA</h5>
+								  </div>
+								</div>
+							</div>-->
+							
+							<div class="title"  style="cursor: pointer" onClick="mg()">
+								<h3>MINAS GERAIS <span id="mg_ap">+</span></h3>
+							</div>
+							<div class="row" id="mg">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">RELIQUIA MINEIRA </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, CAMBUQUIRA</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">SER MINEIRO </div>
+								  <div class="card-body">
+									<h5 class="card-title">CAMANDUCAIA, MONTE VERDE</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">VEREJÃO DO QUEIJO </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, POUSO ALEGRE</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TRILHA DAS GERAIS EMPORIO E CAFÉ </div>
+								  <div class="card-body">
+									<h5 class="card-title">ZONA RURAL, POUSO ALTO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">GOMES SUPERMERCADOS LOJA VERDE </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, SÃO LOURENÇO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">CÉU DE MINAS  </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, SÃO LOURENÇO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">QUEIJARIA DIMINAS </div>
+								  <div class="card-body">
+									<h5 class="card-title">N.S. DE LOURDES, SÃO LOURENÇO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">PASTELARIA TRES IRMAS </div>
+								  <div class="card-body">
+									<h5 class="card-title">JARDIM ANDERE, VARGINHA</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">CASA DE QUEIJOS E DOCES MARFIM </div>
+								  <div class="card-body">
+									<h5 class="card-title">N.S. DE LOURDES, VERGINHA</h5>
+								  </div>
+								</div>
+							</div>
+							<div class="title" style="cursor: pointer" onClick="pa()">
+								<h3>PARÁ <span id="pa_ap">+</span></h3>
+							</div>
+							<div class="row" id="pa">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">SANTA QUITANDA</div>
+								  <div class="card-body">
+									<h5 class="card-title">UMARIZAL, BELÉM</h5>
+								  </div>
+								</div>
+							</div>
+							<div class="title"  style="cursor: pointer" onClick="pe()">
+								<h3>PERNANBUCO <span id="pe_ap">+</span></h3>
+							</div>
+							<div class="row" id="pe">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">PORTUS JAQUEIRA</div>
+								  <div class="card-body">
+									<h5 class="card-title">GRAÇAS, RECIFE</h5>
+								  </div>
+								</div>
+							</div>
+							<div class="title"  style="cursor: pointer" onClick="pr()">
+								<h3>PARANÁ <span id="pr_ap">+</span></h3>
+							</div>
+							<div class="row" id="pr">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">SAIDEL PRODUTOS COLONIAIS</div>
+								  <div class="card-body">
+									<h5 class="card-title">FANNY, CURITIBA</h5>
+								  </div>
+								</div>
+								
+							</div>
+							<div class="title"  style="cursor: pointer" onClick="rj()">
+								<h3>RIO DE JANEIRO <span id="rj_ap">+</span></h3>
+							</div>
+							<div class="row" id="rj">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">FRIALP ALIMENTOS </div>
+								  <div class="card-body">
+									<h5 class="card-title">CONQUISTA, NOVA FRIBURGO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">LE BLE NOIR CREPERIE </div>
+								  <div class="card-body">
+									<h5 class="card-title">COPACABANA, RIO DE JANEIRO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TALHO CAFÉ  </div>
+								  <div class="card-body">
+									<h5 class="card-title">GÁVEA, RIO DE JANEIRO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">ORGANIZAÇÃO FARINHA PURA </div>
+								  <div class="card-body">
+									<h5 class="card-title">HUMAITA, RIO DE JANEIRO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TALHO DELICATESSEN </div>
+								  <div class="card-body">
+									<h5 class="card-title">IPANEMA, RIO DE JANEIRO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TALHO CAPIXABA </div>
+								  <div class="card-body">
+									<h5 class="card-title">LEBLON, RIO DE JANEIRO</h5>
+								  </div>
+								</div>
+							</div>
+							<div class="title"  style="cursor: pointer" onClick="sp()">
+								<h3>SÃO PAULO <span id="sp_ap">+</span></h3>
+							</div>
+							<div class="row" id="sp">
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">EMPORIO TAVOLARO LJ 01 </div>
+								  <div class="card-body">
+									<h5 class="card-title">ZONA RURAL, BROTAS</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">K&F COMERCIO DE PRODUTOS ALIM </div>
+								  <div class="card-body">
+									<h5 class="card-title">LAGEADINHO, COTIA</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">EMPORIO CUCO </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, PORTO FELIZ</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">CASA SANTA LUZIA  </div>
+								  <div class="card-body">
+									<h5 class="card-title">CERQUEIRA CESAR, SÃO PAULO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">SACOLÃO LAPA </div>
+								  <div class="card-body">
+									<h5 class="card-title">LAPA, SÃO PAULO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">SACOLÃO HIGIENOPOLIS </div>
+								  <div class="card-body">
+									<h5 class="card-title">SANTA CECÍLIA, SÃO PAULO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">GALERIA DO QUEIJO </div>
+								  <div class="card-body">
+									<h5 class="card-title">VILA DA SAÚDE, SÃO PAULO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">TUDIM DE MINAS </div>
+								  <div class="card-body">
+									<h5 class="card-title">VILA LEGADO, SÃO PAULO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">QUEIJARIA PACHECO </div>
+								  <div class="card-body">
+									<h5 class="card-title">VILA COLORADO, SUZANO</h5>
+								  </div>
+								</div>
+								<div class="card mb-3" style="width: 35rem;">
+								  <div class="card-header">QUEIJARIA PACHECO </div>
+								  <div class="card-body">
+									<h5 class="card-title">CENTRO, SUZANO</h5>
+								  </div>
+								</div>
+							</div>
+							
+                               
+                            <!--<a class="btn btn-default pull-right wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#contact-us" role="button">Mais Informações</a>-->
+                        </div>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #price close -->
+    <!--
+    subscribe start
+    ============================ -->
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> 
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms"></p>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="hidden" class="form-control" id="exampleInputAmount" placeholder="Enter your email to subscribe...">
+                                    <div class="input-group-addon">
+                                        <!--<button class="btn btn-default" type="submit">subscribe</button>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #subscribe close -->
+    <!--
+    CONTACT US  start
+    ============================= -->
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">Nossos <span>CONTATOS</span></h1>
+                        <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">Pode ser por <span>Email</span> </h3>
+                        <form method="post" action="mail.php" id="mail_form" enctype="multipart/form-data" >
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Escreva seu nome...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Escreva seu email...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+                                <textarea class="form-control" id="msg" name="msg" rows="3" placeholder="Sua mensagem..."></textarea>
+                            </div>
+							<a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" onClick="document.getElementById('mail_form').submit();" role="button">enviar mensagem</a>
+                        </form>
+                        
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- #contact-us close -->
+    <!--
+    footer  start
+    ============================= -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                        <h3>CONTATOS <span>INFORMAÇÕES</span></h3>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                  <h4><i class="fa fa-phone"></i>Telefone</h4>
+                                  <p>(35) 99994-2440 - (35) 98868-6347</p>
+                                    
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-map-marker"></i>Endereço</h4>
+                                  <p>FAZENDA SAN GENARO
+									 Bairro Ribeirão Manso | Caixa Postal 06
+									 Soledade de Minas | MG | CEP 37478-000</p>
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-envelope"></i>E mail</h4>
+                                  <p>contato@valdifiemme.com.br</p>
+                                  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
+                        <!--<h3>LATEST <span>BLOG POSTS</span></h3>
+                        <div class="blog">
+                            <ul>
+                                <li>
+                                    <h4><a href="#">Nov 9-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Sep 8-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                            </ul>                
+                        </div>-->
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
+                        <div class="gallary">
+                            <!--<h3>PHOTO <span>STREAM</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-1.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-2.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-3.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-4.jpg" alt=""></a>
+                                </li>
+                            </ul>-->
+                        </div>
+                        <div class="social-media-link">
+                            <h3>Nossas <span>Redes Sociais</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/valdifiemmemg/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/valdifiemmemg">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copyright &copy; 2023 - Todos os direitos reservados <a href="https://biosweb.com.br" target="_blank">BiosWeb</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	</body>
+</html>

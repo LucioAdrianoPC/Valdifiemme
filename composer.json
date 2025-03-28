@@ -1,0 +1,17 @@
+{
+    "name": "notevaio/valdifiemme",
+    "require-dev": {
+        "phpmailer/phpmailer": "^6.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notevaio\\Valdifiemme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lúcio Adriano"
+        }
+    ]
+}
+
